@@ -1,0 +1,75 @@
+#intro h1, #intro h2 {
+    color: white;
+}
+
+h1 span {
+    color: aqua;
+}
+
+h1 {
+       text-align: center;
+        font-size: 30px;
+        margin: 0;
+        padding-top: 100px;
+}
+
+h2 {
+     text-align: center;
+     font-size: 30px;
+     margin: 0;
+     margin-top: 10px;
+} 
+
+#intro {
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT961wvpSl2f-3xbAS3RwCW1fwuLNfePAsvxWiJC25AaayyF_Nb);
+    background-size: cover;
+    height: 660px;
+    text-align: center
+}
+.button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 16pt;
+    color: white;
+    transition: all .5s;
+    cursor: pointer;
+    margin-top: 30px;;
+}
+
+.button:hover{
+    background-color: rgb(162, 0, 255)
+}
+
+.mdi-arrow-right:before {
+    content: "\F054";
+}
+
+.intro {
+    text-align: center;
+    /* margin-top:  */
+}
+
+
+
+i {
+
+    border-radius: 50%;
+  
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+  
+            transition:         transform .5s ease-in-out;
+  
+  }
+  
+i:hover {
+  
+    -webkit-transform: rotate(90deg);
+  
+            transform: rotate(90deg);
+  
+  }
+  
+  
