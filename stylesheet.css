@@ -20,8 +20,14 @@ h2 {
      margin-top: 10px;
 } 
 
-#intro {
+/* .slider {
+    position: absolute ;
+    z-index: 0;
+} */
 
+#intro {
+    /* z-index: 10;
+    position: absolute; */
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT961wvpSl2f-3xbAS3RwCW1fwuLNfePAsvxWiJC25AaayyF_Nb);
     background-size: cover;
     height: 660px;
@@ -52,7 +58,13 @@ h2 {
     /* margin-top:  */
 }
 
+#life {
+    padding-top: 70px;
+}
 
+#about { 
+    padding-top: 70px; 
+} 
 
 i {
 
@@ -72,4 +84,14 @@ i:hover {
   
   }
   
+
+  /* for sticky nav */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   
+  .sticky + .content {
+    padding-top: 60px;
+  }
